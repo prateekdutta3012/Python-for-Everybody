@@ -1,1 +1,12 @@
+print("This is a sample program")
 
+a=5
+a=a+2
+print(a)
+
+(While Loop)
+x=8
+while x>0:
+  x=x-1
+  print(x)
+print("Endoff")
