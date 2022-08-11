@@ -10,3 +10,8 @@ while x>0:
   x=x-1
   print(x)
 print("Endoff")
+
+a=5
+b=8
+c=a*b
+print(c)
