@@ -34,6 +34,15 @@ x=4+6**2/3*5
 print(x)
 type(x)
 
+# Define Function [def():]
+
+def alpha():
+  print("Prateek")
+  print("Dutta")
+alpha()
+print("Hello!")
+alpha()
+
 a= int(input("Enter your Yearly Salary:"))
 if a<500000:
   print("You are not required to pay tax")
