@@ -7,3 +7,13 @@ Operators preceding rule (High precedence to low)
 3. Multiplication
 4. Addition
 5. Left to Right
+
+
+Comparision Operators
+
+< Less Than
+> Greater Than
+<= Less than equal to
+>- Greater than equal to
+== equal to
+=! not equal 
