@@ -72,3 +72,9 @@ def greet():
 
 print(greet(),'Prateek')
 print(greet(),'Ayush')
+
+def add(a,b):
+  addition=a+b
+  return addition
+x= add(6,4)
+print(x)
