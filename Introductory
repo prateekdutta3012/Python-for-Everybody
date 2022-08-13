@@ -56,3 +56,14 @@ def alpha():
 alpha()
 print("Hello!")
 alpha()
+
+
+def greet(lang):
+  if lang=='es':
+    print("Hola")
+  elif lang=='fr':
+    print("banjour")
+  else:
+    print("Hello")
+
+greet("en")
