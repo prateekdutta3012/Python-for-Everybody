@@ -34,5 +34,9 @@ x=4+6**2/3*5
 print(x)
 type(x)
 
+a=int(input('Enter the floor:'))
+b=a+1
+print("you are in Floor",b)
+
 x= 'Myself' +' '+ 'Prateek Dutta' +' '+ 'Graduate Data Science Trainee' + ' '+ 'at Konverge.AI Pvt. Ltd.'
 print(x)
