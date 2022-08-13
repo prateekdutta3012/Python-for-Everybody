@@ -34,14 +34,6 @@ x=4+6**2/3*5
 print(x)
 type(x)
 
-# Define Function [def():]
-
-def alpha():
-  print("Prateek")
-  print("Dutta")
-alpha()
-print("Hello!")
-alpha()
 
 a= int(input("Enter your Yearly Salary:"))
 if a<500000:
@@ -55,3 +47,12 @@ print("you are in Floor",b)
 
 x= 'Myself' +' '+ 'Prateek Dutta' +' '+ 'Graduate Data Science Trainee' + ' '+ 'at Konverge.AI Pvt. Ltd.'
 print(x)
+
+# Define Function [def():]
+
+def alpha():
+  print("Prateek")
+  print("Dutta")
+alpha()
+print("Hello!")
+alpha()
