@@ -32,3 +32,6 @@ print(y)
 
 x=4+6**2/3*5
 print(x)
+
+x= 'Myself' +' '+ 'Prateek Dutta' +' '+ 'Graduate Data Science Trainee' + ' '+ 'at Konverge.AI Pvt. Ltd.'
+print(x)
