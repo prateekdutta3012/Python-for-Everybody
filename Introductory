@@ -24,3 +24,8 @@ b= int(input("Duration of premium (in year):"))
 c= a//b
 print("Your yearly premium amount is",c)
 print("Your monthly premium amount is",c//12)
+
+[%-remainder]
+x=25
+y=x%4
+print(y)
