@@ -65,5 +65,10 @@ def greet(lang):
     print("banjour")
   else:
     print("Hello")
-
 greet("en")
+
+def greet():
+  return"Hello"
+
+print(greet(),'Prateek')
+print(greet(),'Ayush')
