@@ -29,3 +29,6 @@ print("Your monthly premium amount is",c//12)
 x=25
 y=x%4
 print(y)
+
+x=4+6**2/3*5
+print(x)
