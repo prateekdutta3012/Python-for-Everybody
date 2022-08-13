@@ -34,6 +34,12 @@ x=4+6**2/3*5
 print(x)
 type(x)
 
+a= int(input("Enter your Yearly Salary:"))
+if a<500000:
+  print("You are not required to pay tax")
+else:
+  print("You need to pay tax as per the rule")
+
 a=int(input('Enter the floor:'))
 b=a+1
 print("you are in Floor",b)
