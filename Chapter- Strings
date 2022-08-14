@@ -2,6 +2,10 @@ chocolate = 'Melody'
 letter = chocolate[4]
 print(letter)
 
+chocolate='Melody'
+for letter in chocolate:
+  print(letter)
+
 chocolate = 'Melody'
 print(len(chocolate)
 
