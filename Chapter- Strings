@@ -41,3 +41,9 @@ while True:
   count=count+1
 average=total/count
 print("Average of the number:",average)
+
+book=dict()
+book['Flemingo']=10
+book['william']= 11
+book['A Common Man Succes']=12
+print(book)
