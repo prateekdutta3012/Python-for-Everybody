@@ -30,3 +30,14 @@ friend= ['Ayush', 'Arup', 'Krashank', 'Deep']
 for friends in friend:
   print("Happy Independence Day", friends)
 print('Done')
+
+total=0
+count=0
+while True:
+  x=input("Enter Number:")
+  if x=='Done': break
+  value=float(x)
+  total=total+value
+  count=count+1
+average=total/count
+print("Average of the number:",average)
