@@ -22,3 +22,6 @@ for letter in chocolate:
   if letter=='a':
     count=count+1
 print(count)
+
+x='PythonisaProgramminglanguage'
+print(x[3:7])
