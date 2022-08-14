@@ -1,1 +1,3 @@
-
+chocolate = 'Melody'
+letter = chocolate[4]
+print(letter)
