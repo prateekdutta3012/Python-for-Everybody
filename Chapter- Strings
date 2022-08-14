@@ -15,3 +15,10 @@ while index<len(chocolate):
   letter= chocolate[index]
   print(index,letter)
   index=index+1
+
+chocolate='Kacha Mango Bite'
+count=0
+for letter in chocolate:
+  if letter=='a':
+    count=count+1
+print(count)
