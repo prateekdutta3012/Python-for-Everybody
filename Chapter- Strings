@@ -25,3 +25,8 @@ print(count)
 
 x='PythonisaProgramminglanguage'
 print(x[3:7])
+
+friend= ['Ayush', 'Arup', 'Krashank', 'Deep']
+for friends in friend:
+  print("Happy Independence Day", friends)
+print('Done')
