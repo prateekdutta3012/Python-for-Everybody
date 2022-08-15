@@ -47,3 +47,7 @@ book['Flemingo']=10
 book['william']= 11
 book['A Common Man Succes']=12
 print(book)
+
+sentence= 'My College Registration ID:2019AAIE1111004, My dept.:AI, College area pin:440016'
+x= sentence.find(':')
+print(x)
