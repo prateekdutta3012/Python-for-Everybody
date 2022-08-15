@@ -51,3 +51,8 @@ print(book)
 sentence= 'My College Registration ID:2019AAIE1111004, My dept.:AI, College area pin:440016'
 x= sentence.find(':')
 print(x)
+
+import urllib.request, urllib.parse, urllib.error
+x=urllib.request.urlopen('https://data.pr4e.org/authors.txt')
+for line in x:
+  print(line.decode().strip())
