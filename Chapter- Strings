@@ -56,3 +56,12 @@ import urllib.request, urllib.parse, urllib.error
 x=urllib.request.urlopen('https://data.pr4e.org/authors.txt')
 for line in x:
   print(line.decode().strip())
+
+import urllib.request, urllib.parse, urllib.error
+x=urllib.request.urlopen('https://data.pr4e.org/authors.txt')
+count=dict()
+for line in x:
+  words=line.decode().split()
+  for word in words:
+    count[word]=count.get(word,0)+1
+print(count)
